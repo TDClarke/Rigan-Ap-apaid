@@ -1,3 +1,5 @@
+https://www.researchgate.net/profile/Rigan-Ap-Apid/publication/249767252_An_Algorithm_for_Nudity_Detection/links/5693b99108aeab58a9a2a57a/An-Algorithm-for-Nudity-Detection.pdf
+
 In summary, the nudity detection algorithm works in the
 following manner:
 
