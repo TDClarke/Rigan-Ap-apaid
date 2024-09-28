@@ -145,6 +145,7 @@ public class RiganClassifier {
             List<int[]> sortedRegions = countRegionSizes(labeledSkin, Arrays.stream(labeledSkin).flatMapToInt(Arrays::stream).max().orElse(0));
 
             // Analyze largest skin regions
+            if (sortedRegions.isEmpty()){return "No skin Regions";}
             int largestSkinRegionPixels = sortedRegions.get(0)[1];
             int secondLargestSkinRegionPixels = sortedRegions.size() > 1 ? sortedRegions.get(1)[1] : 0;
             int thirdLargestSkinRegionPixels = sortedRegions.size() > 2 ? sortedRegions.get(2)[1] : 0;
