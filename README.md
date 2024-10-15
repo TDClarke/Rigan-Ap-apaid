@@ -48,6 +48,7 @@ polygon.
 the bounding polygon.
 
 16. Classify an image as follows:
+
 a. If the percentage of skin pixels relative to
 the image size is less than 15 percent, the
 image is not nude. Otherwise, go to the
